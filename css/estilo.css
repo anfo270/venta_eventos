@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+div{
+    display: flex;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    width: 100%;
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-style: none;
+    background-color: red;
+}
+
+.contenido{
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 100%;
+}
+
+.contenido img{
+    height:auto;
+    width: 40;
+}

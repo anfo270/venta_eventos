@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/loginstyles.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>Registro de Usuario</h1>
+        <div class="grid">
+            <form action="procesar_registro.php" method="POST" class="form register">
+                <div class="form__field">
+                    <label for="register__username"><svg class="icon">
+                            <use xlink:href="#icon-user"></use>
+                        </svg><span class="hidden">Nombre de Usuario</span></label>
+                    <input autocomplete="username" id="register__username" type="text" name="username"
+                        class="form__input" placeholder="Nombre de Usuario">
+                </div>
+
+                <div class="form__field">
+                    <label for="register__email"><svg class="icon">
+                            <use xlink:href="#icon-mail"></use>
+                        </svg><span class="hidden">Correo Electrónico</span></label>
+                    <input autocomplete="email" id="register__email" type="email" name="email" class="form__input"
+                        placeholder="Correo Electrónico">
+                </div>
+
+                <div class="form__field">
+                    <label for="register__password"><svg class="icon">
+                            <use xlink:href="#icon-lock"></use>
+                        </svg><span class="hidden">Contraseña</span></label>
+                    <input id="register__password" type="password" name="password" class="form__input"
+                        placeholder="Contraseña">
+                </div>
+
+                <div class="form__field">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+
+            <p class="text--center">¿Ya tienes una cuenta? <a href="login.html">Iniciar sesión</a> <svg class="icon">
+                    <use xlink:href="#icon-arrow-right"></use>
+                </svg></p>
+        </div>
+    </div>
+</body>
+
+</html>

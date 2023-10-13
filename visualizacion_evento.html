@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo2.png" alt="logo">
+    <header>
+        <div class="opciones">
+            <img src="img/logo2.png" width="200px" height="60px">
+            <div><a href="#">Inicio</a></div>
+            <div><a href="#">Novedades</a></div>
+            <div><a href="#">Catalogo</a></div>
         </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a class="btn" href="#">Inicio</a></li>
-                    <li><a class="btn" href="#">Novedades</a></li>
-                    <li><a class="btn" href="#">Contacto</a></li>
-                    <li><a class="btn" href="#">Acerca de</a></li>
-                </ul>
-            </nav>
-        </header>
-          
-        <div class="contenido">
-            <h1>JRZ_DANIEL ME ESTAS MATANDO</h1>
+        <div class="iconos">
+            <div><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png" /></div>
+            <div><img width="30" height="30"
+                    src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/external-notification-user-interface-kmg-design-glyph-kmg-design.png"
+                    alt="external-notification-user-interface-kmg-design-glyph-kmg-design" /></div>
+            <div><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/user-male-circle.png"
+                    alt="user-male-circle" /></div>
+        </div>
+    </header>
+
+    <div class="content_visualizar">
+        <h1>JRZ_DANIEL ME ESTAS MATANDO</h1>
+        <div class="events_visualizar">
+
             <img src="/img/daniel.jpg" alt="">
-            <p>Concierto en vivo</p>
-            <h2> Fecha y horario: 21/10/2023, 21:00</h2>
-            <ul>
-                <li>Acceso a partir de niños de 12 años.</li>
-                <li>Precios desplegados son por persona.</li>
-                <li>Precios sujetos a cambio sin previo aviso.</li>
-                <li>En pago con tarjeta aplica un cargo extra.</li>
-            </ul>
+            <div class="datos">
 
-            <button>Compra Ahora</button>
-        </div>
+                <h2> Fecha y horario: 21/10/2023, 21:00</h2>
+                <ul>
+                    <li>Acceso a partir de niños de 12 años.</li>
+                    <li>Precios desplegados son por persona.</li>
+                    <li>Precios sujetos a cambio sin previo aviso.</li>
+                    <li>En pago con tarjeta aplica un cargo extra.</li>
+                </ul>
 
-        <div class="footer">
-            <p>@Derechos</p>
-            <p>656-180-0078</p>
-                <img src="img/QR.png">
+            </div>
+            <a href="/carrito.html" class="cta-button">Comprar Boletos</a>
         </div>
+    </div>
+
+
+    <footer>
+        <p>&copy;TotalTicket - Todos los derechos reservados.</p>
+        <br>
+        <img class="qr-mobil" src="img/QR.png" height="50px" width="50px">
+    </footer>
+
 </body>
+
 </html>
